@@ -19,4 +19,17 @@
 
 body {
   min-height: 100vh;
+  background-color: var(--gray);
+  font-family: Josefin Sans, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
 }
