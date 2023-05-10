@@ -1,0 +1,22 @@
+:root {
+  --primary-white: rgb(255, 248, 248);
+  --primary-black: rgb(32, 31, 31);
+  --gray: rgb(243, 235, 235);
+  --dark-gray: rgb(164, 163, 163);
+  --accept-color: #31c579;
+  --delete-color: #c55431;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+}
