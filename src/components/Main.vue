@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <main>
     <section>
@@ -8,6 +6,20 @@
     </section>
   </main>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { type Task } from '../Task'
+
+export default defineComponent({
+  name: 'main',
+  data() {
+    return {
+      tasks: [] as Task[]
+    }
+  }
+})
+</script>
 
 <style scoped>
 section {

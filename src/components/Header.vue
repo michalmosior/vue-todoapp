@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <header class="header">
     <div class="container">
@@ -9,15 +7,17 @@
   </header>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'header',
   data() {
     return {
       title: 'To do App',
       description: 'Never forget again'
     }
   }
-}
+})
 </script>
 
 <style scoped>
